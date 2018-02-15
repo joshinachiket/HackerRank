@@ -1,4 +1,5 @@
-package Stacks;
+package hackerrank;
+
 
 import java.util.Scanner;
 import java.util.Stack;
