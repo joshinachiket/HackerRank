@@ -28,7 +28,7 @@ public class L263E_Ugly_Number {
 	
 	public static void main(String[] args) {
 		// enter number to check if its ugly or not
-		int num = 11;
+		int num = 6;
 		System.out.println(checkUglyNumber(num));		
 	}
 
