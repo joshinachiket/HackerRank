@@ -35,7 +35,7 @@ public class BFS_Graph {
 		}
 	}
 	
-	public static void BFS (Graph graph, int vertex) {
+	public static void BFS (Graph graph, int head) {
 		
 		System.out.println("<----BFS OF GRAPH---->");
 		Queue <Integer> queue = new LinkedList<>();
@@ -44,8 +44,8 @@ public class BFS_Graph {
 		// declaring a boolean is default false
 		// and false means not visited
 		boolean [] visited = new boolean [graph.v];
-		visited [vertex] = true;
-		queue.add(vertex);
+		visited [head] = true;
+		queue.add(head);
 
 		
 		while (!queue.isEmpty()) {
