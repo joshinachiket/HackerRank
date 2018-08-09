@@ -1,6 +1,6 @@
 package String;
 
-public class LongestPalindrome {
+public class Longest_Palindrome_Substring {
 	
 	public static int longestPalindrome (String s) {
 		// upper triangular loop
